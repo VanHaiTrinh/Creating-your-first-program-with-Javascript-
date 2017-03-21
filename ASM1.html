@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html> 
+<title>ASM4 môn javascript</title>
+</head>
+
+<body>
+
+		<h1>Ứng dụng thu thập thông tin cá nhân</h1>
+
+		<p>Tên của bạn: <span id ="name" style ="font-weight:bold;"></span></p>
+
+		<p>Thành phố: <span id ="city" style ="font-weight:bold;"></span></p>
+
+		<p>Số điện thoại: <span id ="tel" style ="font-weight:bold;"></span></p>
+
+	<script type="text/javascript">
+
+
+		alert("Chào mừng bạn đến với ứng dụng javascript đầu tiên!");	
+  
+ 
+
+ 		name=prompt("Hãy nhập tên của bạn");
+    		document.getElementById("name").innerHTML= name;
+
+
+		city=prompt("Hãy nhập thành phố bạn đang sống");
+		document.getElementById("city").innerHTML= city;
+
+		tel=prompt("Hãy nhập số điện thoại của bạn");
+		document.getElementById("tel").innerHTML= tel;
+
+
+		alert("Cảm ơn bạn đã cung cấp thông tin");
+	
+    		document.write("<button>Bước tiếp theo</button>");
+ 
+	</script>
+
+</body>
+
+</html>
